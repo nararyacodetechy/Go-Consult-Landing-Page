@@ -6,6 +6,8 @@ import '../styles/responsive.css';
 import './views/pages/home-page';
 import './views/pages/about-page';
 
+import './utils/bar-menu';
+
 import App from './views/app';
 
 const app = new App({
