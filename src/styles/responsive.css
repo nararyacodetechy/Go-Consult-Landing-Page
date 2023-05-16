@@ -2,7 +2,63 @@
 @media screen and (min-width: 480px) {}
 
 /* Tablet Size Responsive */
-@media screen and (min-width: 640px) {}
+@media screen and (min-width: 640px) {
+    header {
+        padding: 20px 50px;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+        position: relative;
+    }
+
+    .canvas-menu {
+        display: none;
+    }
+
+    main {
+        padding: 60px 0;
+    }
+
+    .hero {
+        padding: 50px;
+        text-align: left;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .image-hero img {
+        padding: 50px;
+        display: grid;
+    }
+
+    .text-hero .connect-button {
+        margin-top: 90px;
+    }
+
+    .text-hero .connect-button .button {
+        text-align: center;
+    }
+
+    #main-footer {
+        text-align: left;
+        padding: 50px;
+        justify-content: flex-start;
+    }
+
+    .links-footer {
+        margin-bottom: 0px;
+    }
+
+    .contact-footer {
+        width: 40%;
+        left: 0;
+        margin-left: 50px;
+    }
+}
 
 /* Desktop Size Responsive */
 @media screen and (min-width: 1200px) {}
