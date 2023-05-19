@@ -11,14 +11,16 @@
 
 /* Tablet Size Responsive */
 @media screen and (min-width: 640px) {
-    header {
-        padding: 20px 50px;
-    }
-
     nav {
         display: flex;
         gap: 20px;
         position: relative;
+    }
+
+    .links-nav {
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
     }
 
     .canvas-menu {
@@ -26,11 +28,11 @@
     }
 
     main {
-        padding: 60px 0;
+        padding-top: 50px;
     }
 
     section.hero {
-        padding: 50px;
+        padding: 100px 50px;
         text-align: left;
     }
 
@@ -89,6 +91,22 @@
     }
 
     section.team {
+        padding: 50px;
+    }
+
+    section.consultants {
+        padding: 50px;
+    }
+
+    section.job-vacancy {
+        padding: 50px;
+    }
+
+    .title-page {
+        padding: 30px 50px;
+    }
+
+    section.be-consultant {
         padding: 50px;
     }
 

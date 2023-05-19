@@ -1,7 +1,8 @@
 const BeConsultPage = {
   async render() {
     return `
-          <h1>Connect to be Consultan</h1>
+          <h5 class="title-page">Connect to be Consultan</h5>
+          <section class="be-consultant"></section>
         `;
   },
 

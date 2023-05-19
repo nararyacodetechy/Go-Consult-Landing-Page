@@ -6,7 +6,7 @@ const HomePage = {
           <h2>Build and Realize Your Dream Career With Go Consult</h2>
           <h4>GO Consult is a digital consulting service platform, a platform that exists as a career preparation assistance solution</h4>
           <div class="connect-button">
-            <a class="button" href="">Connect to Consult</a>
+            <a class="button" href="#/consultant-page">Connect to Consult</a>
             <a class="button" href="#/be-consult-page">Connect to be Consultant</a>
           </div>
         </div>
@@ -73,6 +73,7 @@ const HomePage = {
           <div class="card-package">
             <img src="./icons/packages/package-1.png">
             <h2 class="title-packages">Basic Package</h2>
+            <b>RP. 49.000</b>
             <p>Review CV general<br>
             Live session career development<br>
             Sertifikat
@@ -81,6 +82,7 @@ const HomePage = {
           <div class="card-package">
             <img src="./icons/packages/package-2.png">
             <h2 class="title-packages">Gold Package</h2>
+            <b>RP. 79.000</b>
             <p>Semua yang ada di paket basic<br>
             Review CV<br>
             Sesi 1 : Workshop personal branding<br>
@@ -92,6 +94,7 @@ const HomePage = {
           <div class="card-package">
             <img src="./icons/packages/package-3.png">
             <h2 class="title-packages">Exclusive Package</h2>
+            <b>RP. 129.000</b>
             <p>Semua yang ada di paket gold<br>
             Template CV recommended<br>
             Sesi 4 : Simulasi interview dari expert <br>
@@ -142,7 +145,7 @@ const HomePage = {
             <p>"The material presented is easy to understand, the quality of the instructors is very good and the response is fast. So, I highly recommend this course !!"</p>
           </div>
           <div class="riviewer">
-            <img src="">
+            <img src="./images/riviews/anonim.png">
             <div class="profile">
               <p class="name">Jenny Wilson</p>
               <p class="jobs">Freshgraduate in Engineering field</p>
@@ -165,25 +168,78 @@ const HomePage = {
         <div class="container-blog">
           <div class="card-blog">
             <img src="./images/blogs/blog-1.png">
-            <p class="date-blog">19 Jan 2022</p>
-            <h4 class="title-blog">Easy Ways to Start Learning Programming</h4>
-            <p class="description-blog">Choose the programming language you want to learn by considering your goals and the type of project you want to work on.</p>
-            <a href="">Read More</a>
+            <div class="description-blog">
+              <p class="date-blog">19 Jan 2022</p>
+              <h4 class="title-blog">Easy Ways to Start Learning Programming</h4>
+              <p class="description">Choose the programming language you want to learn by considering your goals and the type of project you want to work on.</p>
+              <a href="">Read More</a>
+            </div>
           </div>
           <div class="card-blog">
             <img src="./images/blogs/blog-2.png">
-            <p class="date-blog">03 Jun 2022</p>
-            <h4 class="title-blog">Tips for Making a Website Landing Page Business</h4>
-            <p class="description-blog">An attractive landing page can increase conversions and strengthen your product brand.</p>
-            <a href="">Read More</a>
+            <div class="description-blog">
+              <p class="date-blog">03 Jun 2022</p>
+              <h4 class="title-blog">Tips for Making a Website Landing Page Business</h4>
+              <p class="description">An attractive landing page can increase conversions and strengthen your product brand.</p>
+              <a href="">Read More</a>
+            </div>
           </div>
           <div class="card-blog">
             <img src="./images/blogs/blog-3.png">
-            <p class="date-blog">23 Feb 2023</p>
-            <h4 class="title-blog">How to be the real startup founder for millenial?</h4>
-            <p class="description-blog">Establishing a startup requires innovative solutions to help the problems faced by many people. How to think innovatively?</p>
-            <a class="read-more" href="">Read More</a>
+            <div class="description-blog">
+              <p class="date-blog">23 Feb 2023</p>
+              <h4 class="title-blog">How to be the real startup founder for millenial?</h4>
+              <p class="description">Establishing a startup requires innovative solutions to help the problems faced by many people. How to think innovatively?</p>
+              <a class="read-more" href="">Read More</a>
+            </div>
           </div>
+        </div>
+      </section>
+      <section class="job-vacancy">
+        <div class="big-title-vacancy">
+          <h5 class="main-title job-vacancy">Job Vacancy Info</h5>
+          <div class="select-view">
+            <p>Category</p>
+            <a href="">View More</a>
+          </div>
+        </div>
+        <div class="container-vacancy">
+          <a href="#" class="card-vacancy">
+            <img src="./images/blogs/blog-1.png">
+            <div class="description-vacancy">
+                <h4 class="title-job">Startup Building</h4>
+                <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
+                <div class="information">
+                    <p class="meeting">5 Meeting</p>
+                    <p class="videos">20 Video</p>
+                    <p class="applications">1.900 applications</p>
+                </div>
+            </div>
+          </a>
+          <a href="#" class="card-vacancy">
+            <img src="./images/blogs/blog-2.png">
+            <div class="description-vacancy">
+                <h4 class="title-job">Startup Building</h4>
+                <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
+                <div class="information">
+                    <p class="meeting">5 Meeting</p>
+                    <p class="videos">20 Video</p>
+                    <p class="applications">1.900 applications</p>
+                </div>
+            </div>
+          </a>
+          <a href="#" class="card-vacancy">
+            <img src="./images/blogs/blog-3.png">
+            <div class="description-vacancy">
+                <h4 class="title-job">Startup Building</h4>
+                <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
+                <div class="information">
+                    <p class="meeting">5 Meeting</p>
+                    <p class="videos">20 Video</p>
+                    <p class="applications">1.900 applications</p>
+                </div>
+            </div>
+          </a>
         </div>
       </section>
     `;
