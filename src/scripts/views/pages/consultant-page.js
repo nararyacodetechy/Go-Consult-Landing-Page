@@ -1,12 +1,25 @@
+import GetData from '../../../data/get-data';
+import createConsultantCardTemplate from '../templates/createConsultCard';
+
 const ConsultantPage = {
   async render() {
     return `
-          <h1>Consultant Pages</h1>
+      <section class="consultants">
+        <h5 class="main-title consultant">Our Consultant</h5>
+        <div id="list-consultant" class="container-consultant">
+            
+        </div>
+      </section>
         `;
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const consultants = await GetData.getListConsultant();
+
+    const consultantContainer = document.querySelector('#list-consultant');
+    consultants.forEach((consultant) => {
+      consultantContainer.innerHTML += createConsultantCardTemplate(consultant);
+    });
   },
 };
 
