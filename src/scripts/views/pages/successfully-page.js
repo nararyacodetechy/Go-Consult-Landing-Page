@@ -1,8 +1,12 @@
-const SuccesfullyPage = {
+const SuccessfullyPage = {
   async render() {
     return `
-            <section class="succesfully">
-                
+            <section class="successfully">
+                <h1 class="ok">OK</h1>
+                <h2 class="main-title registration">Registration Succesfully</h2>
+                <p>Your application has been sent. please wait for the results<br>
+                of file validation in your email. Thank You</p>
+                <a href="#/home-page" class="buttonSuccess">Back To Home</a>
             </section>
           `;
   },
@@ -10,4 +14,4 @@ const SuccesfullyPage = {
   async afterRender() {},
 };
 
-export default SuccesfullyPage;
+export default SuccessfullyPage;

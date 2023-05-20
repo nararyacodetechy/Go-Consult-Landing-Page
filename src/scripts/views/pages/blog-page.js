@@ -5,9 +5,8 @@ const BlogPage = {
   async render() {
     return `
         <section class="blog">
-            <div class="main-title blog">
+            <div class="main-title blogs">
                 <h5>Blogs, Articel and Event</h5>
-                <a href="">See more</a>
             </div>
             <div id="list-blog" class="container-blog">
                 

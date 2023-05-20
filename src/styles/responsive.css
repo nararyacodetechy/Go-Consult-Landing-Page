@@ -83,6 +83,10 @@
         padding: 50px;
     }
 
+    section.faq {
+        padding: 50px;
+    }
+
     section.service-packages {
         padding: 50px;
     }
@@ -111,9 +115,17 @@
         padding: 50px;
     }
 
+    .big-title-vacancy h3 {
+        font-size: 32px;
+    }
+
     .title-page {
-        margin-top: 60px;
+        margin-top: 20px;
         padding: 30px 50px;
+    }
+
+    .see-more.category {
+        display: flex;
     }
 
     section.be-consultant {
@@ -128,10 +140,14 @@
         margin: 0 250px;
     }
 
-    section.register img {
+    section.autentication img {
         display: flex;
         flex-direction: row;
         width: 100%;
+    }
+
+    section.successfully {
+        padding: 50px;
     }
 
     footer .main-footer {
@@ -150,14 +166,14 @@
         margin-left: 50px;
     }
 
-    .copyright {
+    section.copyright {
         padding: 20px 0px 20px 50px;
     }
 }
 
 /* Desktop Size Responsive */
 @media screen and (min-width: 1200px) {
-    section.register {
+    section.autentication {
         display: flex;
         flex-direction: row;
     }

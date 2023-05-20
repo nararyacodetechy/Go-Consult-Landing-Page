@@ -2,72 +2,58 @@
     "blogs": [
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
-            "picture": "./images/blogs/blog-1.png"
+            "date": "24 April 2022",
+            "title": "Why Choose Consultation Services to Improve Your Life",
+            "description": "We often face various challenges and important decisions that need to be made. Whether it's related to career, relationships, health, or personal issues.",
+            "picture": "https://www.freepik.com/free-vector/doctor-talking-patient_2126514.htm#query=konsultasi&position=2&from_view=search&track=sph"
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
+            "date": "16 Maret 2022",
+            "title": "Enhancing Personal Branding: Key Steps to Stand Out",
+            "description": "Personal branding involves showcasing your unique qualities, skills, and expertise to distinguish yourself from others in your field.",
+            "picture": "https://www.freepik.com/free-photo/branding-copyright-design-spaceship-graphic-concept_17130258.htm#query=personal%20branding&position=29&from_view=search&track=ais"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "date": "05 Februari 2022",
+            "title": "The Importance of Self-Understanding Before Entering the Workforce",
+            "description": "It's a time when we transition from being students to professionals, and understanding ourselves becomes crucial for success.",
+            "picture": "https://www.freepik.com/free-vector/business-ethics-concept_10654333.htm#query=self%20understanding&position=2&from_view=search&track=ais"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "date": "26 Januari 2022",
+            "title": "Essential Tips for Crafting an Impressive CV",
+            "description": "Your curriculum vitae (CV) is your first opportunity to make a strong impression. Crafting a well-structured and compelling CV is crucial to stand out.",
             "picture": ""
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
+            "date": "13 Juni 2023",
+            "title": "Why Many Workers Are Not Employed According to Their Skills",
+            "description": "This mismatch between skills and job roles can be detrimental to both the individual and the organization.",
             "picture": ""
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
+            "date": "17 Oktober 2022",
+            "title": "The Prevalence of Workplace Stress Among Employees",
+            "description": "The demands and pressures of modern work environments often contribute to high stress levels among workers. In this article, we will explore the reasons behind the prevalence of workplace stress and its impact on employees.",
             "picture": ""
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
+            "date": "29 Agustus 2022",
+            "title": "The Importance of Learning Interview Skills",
+            "description": "Interviews are a critical part of the job search process, and mastering interview skills is essential for securing employment opportunities. Effective interview techniques can significantly increase your chances of success and help you stand out among other candidates.",
             "picture": ""
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
-            "picture": ""
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
-            "picture": ""
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
-            "picture": ""
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
-            "picture": ""
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "date": "19 Jun 2022",
-            "title": "Easy Ways to Start Learning Programming",
-            "description": "Choose the programming language you want to learn by considering your goals and the type of project you want to work on.",
+            "date": "07 Mei 2021",
+            "title": "Tips and Tricks for Students Before Entering the Workforce",
+            "description": "Transitioning from a student to a professional can be an exciting yet challenging phase. As a student, it is important to prepare yourself for the demands and expectations of the working world.",
             "picture": ""
         }
     ]

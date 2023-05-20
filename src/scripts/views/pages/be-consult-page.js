@@ -7,16 +7,16 @@ const BeConsultPage = {
             <form>
               <div class="registration-consultant">
                 <div class="required-input">
-                  <input type="text" placeholder="Full Name">
-                  <input type="email" placeholder="Email">
-                  <input type="tel" placeholder="Telephone">
-                  <input type="text" placeholder="Address">
-                  <input type="text" placeholder="Education">
-                  <input type="text" placeholder="Expertise">
+                  <input type="text" placeholder="Full Name" required>
+                  <input type="email" placeholder="Email" required>
+                  <input type="tel" placeholder="Telephone" required>
+                  <input type="text" placeholder="Address" required>
+                  <input type="text" placeholder="Education" required>
+                  <input type="text" placeholder="Expertise" required>
                 </div>
                 <input class="upload-foto" type="image" src="./images/upload-foto.png">
               </div>
-              <div class="description-consultant">
+              <div class="description-be-consultant">
                 <textarea placeholder="Describe Yourself"></textarea>
                 <textarea placeholder="Your reason why you want to be consultant"></textarea>
               </div>
@@ -24,7 +24,7 @@ const BeConsultPage = {
                   <input type="checkbox" id="save">
                   <label for="save">By signing this, it means you have followed the terms and conditions as a consultant</label>
               </div>
-              <button type="submit">Submit Application</button>
+              <button type="submit"><a href="#/successfully-page">Submit Aplications</a></button>
             </form>
           </section>
         `;
