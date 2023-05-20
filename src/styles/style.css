@@ -439,7 +439,7 @@ section.blog {
 section.about {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     background-color: var(--main-color);
     color: var(--white-color);
@@ -594,26 +594,92 @@ section.be-consultant {
     padding: 20px;
 }
 
+.be-consultant form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+}
+
+.registration-consultant {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+}
+
+.registration-consultant .upload-foto {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+}
+
+.registration-consultant .required-input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.required-input input {
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.description-consultant {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 20px;
+}
+
+.description-consultant textarea {
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+.be-consultant form button {
+    margin: 0 50px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 section.register {
     display: flex;
+    flex-direction: column;
     margin-bottom: 50px;
     color: var(--white-color);
+    width: 100%;
 }
 
 section.register img {
-    width: 50%;
-    height: 100vh;
+    display: none;
 }
 
 section.register form {
     background-color: var(--main-color);
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding: 90px 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    min-width: 500px;
 }
+
 
 .register form input {
     height: 50px;
@@ -646,16 +712,21 @@ section.register form {
     color: var(--more-color);
 }
 
-.register form .save-login {
+.save-login {
     display: flex;
     align-items: center;
 }
 
-.register form .save-login input {
+.save-login label {
+    cursor: pointer;
+}
+
+.save-login input {
     width: 15px;
     height: 15px;
     margin-right: 10px;
     background-color: none;
+    cursor: pointer;
 }
 
 /* End Main Section */

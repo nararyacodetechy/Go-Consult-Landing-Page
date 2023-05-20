@@ -7,6 +7,15 @@
     .about .text-about {
         order: 1;
     }
+
+    .registration-consultant .upload-foto {
+        width: 250px;
+        height: 300px;
+    }
+
+    .be-consultant form button {
+        margin: 0 100px;
+    }
 }
 
 /* Tablet Size Responsive */
@@ -103,11 +112,26 @@
     }
 
     .title-page {
+        margin-top: 60px;
         padding: 30px 50px;
     }
 
     section.be-consultant {
         padding: 50px;
+    }
+
+    .registration-consultant {
+        gap: 20px;
+    }
+
+    .be-consultant form button {
+        margin: 0 250px;
+    }
+
+    section.register img {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     footer .main-footer {
@@ -132,4 +156,13 @@
 }
 
 /* Desktop Size Responsive */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    section.register {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .be-consultant form {
+        padding: 0px 200px;
+    }
+}
