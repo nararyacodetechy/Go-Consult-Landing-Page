@@ -7,6 +7,15 @@
     .about .text-about {
         order: 1;
     }
+
+    .registration-consultant .upload-foto {
+        width: 250px;
+        height: 300px;
+    }
+
+    .be-consultant form button {
+        margin: 0 100px;
+    }
 }
 
 /* Tablet Size Responsive */
@@ -74,6 +83,10 @@
         padding: 50px;
     }
 
+    section.faq {
+        padding: 50px;
+    }
+
     section.service-packages {
         padding: 50px;
     }
@@ -102,11 +115,38 @@
         padding: 50px;
     }
 
+    .big-title-vacancy h3 {
+        font-size: 32px;
+    }
+
     .title-page {
+        margin-top: 20px;
         padding: 30px 50px;
     }
 
+    .see-more.category {
+        display: flex;
+    }
+
     section.be-consultant {
+        padding: 50px;
+    }
+
+    .registration-consultant {
+        gap: 20px;
+    }
+
+    .be-consultant form button {
+        margin: 0 250px;
+    }
+
+    section.autentication img {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    section.successfully {
         padding: 50px;
     }
 
@@ -126,10 +166,19 @@
         margin-left: 50px;
     }
 
-    .copyright {
+    section.copyright {
         padding: 20px 0px 20px 50px;
     }
 }
 
 /* Desktop Size Responsive */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    section.autentication {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .be-consultant form {
+        padding: 0px 200px;
+    }
+}

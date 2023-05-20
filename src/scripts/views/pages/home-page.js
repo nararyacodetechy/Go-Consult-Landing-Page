@@ -1,12 +1,18 @@
+import css from 'bootstrap/dist/css/bootstrap.min.css';
+// import aos from 'https://unpkg.com/aos@2.3.1/dist/aos.css';
+
 const HomePage = {
   async render() {
     return `
+      <style>
+        ${css}
+      </style>
       <section class="hero">
         <div class="text-hero">
           <h2>Build and Realize Your Dream Career With Go Consult</h2>
           <h4>GO Consult is a digital consulting service platform, a platform that exists as a career preparation assistance solution</h4>
           <div class="connect-button">
-            <a class="button" href="#/consultant-page">Connect to Consult</a>
+            <a class="button" href="#/login-page">Connect to Consult</a>
             <a class="button" href="#/be-consult-page">Connect to be Consultant</a>
           </div>
         </div>
@@ -14,7 +20,7 @@ const HomePage = {
           <img src="./images/hero.png">
         </div>
       </section>
-      <section class="statistic">
+      <section class="statistic" data-aos="fade-up">
         <div class="category-statistic">
           <h2>21.000 +</h2>
           <p>Alumni</p>
@@ -127,7 +133,7 @@ const HomePage = {
           </div>
           <div class="card-flow">
             <img src="./images/consultant-flow/amico-3.png">
-            <div class="title-flow">
+            <div class="title-flow d-flex align-items-center">
               <img src="./icons/consultant-flow/flow-3.png">
               <h3>Choose the Consultant</h3>
             </div>
@@ -160,10 +166,56 @@ const HomePage = {
           </div>  
         </div>
       </section>
+      <section class="faq">
+        <div class="main-title faq">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is the Go Consult platform?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Go Consult</strong> is a platform that exists as a solution to problems that are often faced by job seekers, fresh graduates, and final year.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="blog">
         <div class="main-title blog">
-          <h5>Blogs, Articel and Event</h5>
-          <a href="#/blog-page">See more</a>
+          <h3>Blogs, Articel and Event</h3>
+          <a href="#/blog-page" class="see-more">
+            <b>See more</b>
+            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+          </a>
         </div>
         <div class="container-blog">
           <div class="card-blog">
@@ -172,7 +224,10 @@ const HomePage = {
               <p class="date-blog">19 Jan 2022</p>
               <h4 class="title-blog">Easy Ways to Start Learning Programming</h4>
               <p class="description">Choose the programming language you want to learn by considering your goals and the type of project you want to work on.</p>
-              <a href="">Read More</a>
+              <a href="" class="see-more">
+                <b>Read more</b>
+                <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+              </a>
             </div>
           </div>
           <div class="card-blog">
@@ -181,7 +236,10 @@ const HomePage = {
               <p class="date-blog">03 Jun 2022</p>
               <h4 class="title-blog">Tips for Making a Website Landing Page Business</h4>
               <p class="description">An attractive landing page can increase conversions and strengthen your product brand.</p>
-              <a href="">Read More</a>
+              <a href="" class="see-more">
+                <b>Read more</b>
+                <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+              </a>
             </div>
           </div>
           <div class="card-blog">
@@ -190,16 +248,22 @@ const HomePage = {
               <p class="date-blog">23 Feb 2023</p>
               <h4 class="title-blog">How to be the real startup founder for millenial?</h4>
               <p class="description">Establishing a startup requires innovative solutions to help the problems faced by many people. How to think innovatively?</p>
-              <a class="read-more" href="">Read More</a>
+              <a href="" class="see-more">
+                <b>Read more</b>
+                <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
       <section class="job-vacancy">
         <div class="big-title-vacancy">
-          <h5 class="main-title job-vacancy">Job Vacancy Info</h5>
+          <h3 class="main-title job-vacancy">Job Vacancy Info</h3>
           <div class="select-view">
-            <p>Category</p>
+            <a href="" class="see-more category">
+              <b>Category</b>
+              <i class="fa-solid fa-caret-down fa-bounce"></i>
+            </a>
             <a href="">View More</a>
           </div>
         </div>
@@ -209,7 +273,7 @@ const HomePage = {
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
                 <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
-                <div class="information">
+                <div class="information-vacancy">
                     <p class="meeting">5 Meeting</p>
                     <p class="videos">20 Video</p>
                     <p class="applications">1.900 applications</p>
@@ -221,7 +285,7 @@ const HomePage = {
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
                 <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
-                <div class="information">
+                <div class="information-vacancy">
                     <p class="meeting">5 Meeting</p>
                     <p class="videos">20 Video</p>
                     <p class="applications">1.900 applications</p>
@@ -233,7 +297,7 @@ const HomePage = {
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
                 <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
-                <div class="information">
+                <div class="information-vacancy">
                     <p class="meeting">5 Meeting</p>
                     <p class="videos">20 Video</p>
                     <p class="applications">1.900 applications</p>

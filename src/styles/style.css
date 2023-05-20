@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* End Configuration Tag Style Design System */
+
 :root {
     --main-color: #1C1E53;
     --more-color: #4B51E2;
@@ -30,21 +32,27 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 span {
     color: var(--main-color);
 }
 
-/* Start Header Section */
+.main-title {
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* End Configuration Tag Style Design System */
+
+
+/* ================================================== */
 
 
 /* Mobile Size Responsive */
 
-/* Start Header Section */
+/* Start Header */
 
 header {
     width: 100%;
@@ -96,6 +104,7 @@ nav {
 .links-nav li a {
     color: var(--white-color);
     transition: 0.2s ease;
+    text-decoration: none;
 }
 
 .links-nav li a:hover {
@@ -135,15 +144,19 @@ nav.open {
     gap: 30px;
 }
 
-/* End Header Section */
+/* End Header */
 
-/* Start Main Section */
+/* ==================================================== */
+
+/* Start Main */
 
 main {
     width: 100%;
     height: auto;
     padding-top: 70px;
 }
+
+/* Start Hero Section */
 
 section.hero {
     background-color: var(--main-color);
@@ -172,6 +185,10 @@ section.hero {
     color: var(--white-color);
 }
 
+.text-hero h4 {
+    font-size: 18px;
+}
+
 .text-hero .connect-button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -183,12 +200,21 @@ section.hero {
     padding: 8px 10px;
     background-color: var(--white-color);
     border-radius: 4px;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
 .text-hero .connect-button .button:hover {
     box-shadow: none;
+    background-color: var(--more-color);
+    color: var(--white-color);
 }
+
+/* End Hero Section */
+
+/* Start Statistic Section */
 
 section.statistic {
     padding: 20px;
@@ -204,6 +230,18 @@ section.statistic {
     flex-direction: column;
 }
 
+.statistic .category-statistic h2 {
+    font-size: 28px;
+}
+
+.statistic .category-statistic p {
+    margin: 0;
+}
+
+/* End Statistic Section */
+
+/* Start Benefits Section */
+
 section.benefits {
     width: 100%;
     padding: 20px;
@@ -215,16 +253,13 @@ section.benefits {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.main-title {
-    font-size: 30px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
 .card-benefits {
     background-color: #F4F6FC;
     padding: 35px;
+}
+
+.card-benefits p {
+    margin: 0;
 }
 
 .title-benefits {
@@ -237,6 +272,10 @@ section.benefits {
     text-align: center;
     font-size: 28px;
 }
+
+/* End Benefits Section */
+
+/* Start Riviews Section */
 
 section.riviews {
     width: 100%;
@@ -306,6 +345,37 @@ section.riviews {
     background-color: var(--main-color);
 }
 
+/* End Riviews Section */
+
+/* Start Frequently Asked Question */
+
+section.faq {
+    background-color: var(--main-color);
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.faq .main-title.faq {
+    width: 60%;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.faq .accordion-item {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+
+.faq .accordion-button {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+
+/* End Frequently Asked Question */
+
+/* Start Service Packages Section */
+
 section.service-packages {
     padding: 20px;
     background-color: var(--main-color);
@@ -338,10 +408,23 @@ section.service-packages {
     margin-top: 15px;
     font-weight: 400;
     color: rgb(69, 69, 69);
+    margin: 0;
+}
+
+/* End Service Packages Section */
+
+/* Start Flow Consultation Section */
+
+.search {
+    margin-bottom: 50px;
 }
 
 section.flow-cosultation {
     padding: 20px;
+}
+
+a.card-consultant {
+    text-decoration: none;
 }
 
 .container-flow {
@@ -366,8 +449,13 @@ section.flow-cosultation {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     margin: 20px 0;
+    gap: 10px;
+}
+
+.card-flow .title-flow h3 {
+    font-size: 18px;
+    margin: 0;
 }
 
 .card-flow .title-flow img {
@@ -380,6 +468,10 @@ section.flow-cosultation {
     font-style: italic;
 }
 
+/* End Flow Consultation Section */
+
+/* Start Blogs Section */
+
 section.blog {
     padding: 20px;
 }
@@ -391,12 +483,39 @@ section.blog {
     width: 100%;
 }
 
+.main-title.blog h3 {
+    font-weight: 700;
+}
+
 .main-title.blog a {
     font-size: 16px;
+    text-decoration: none;
 }
 
 .main-title.blog a:hover {
     color: var(--main-color);
+}
+
+.main-title.blogs h5 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    padding: 10px 5px;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.see-more:hover {
+    background-color: var(--secondary-white-color);
 }
 
 .container-blog {
@@ -408,10 +527,35 @@ section.blog {
 .card-blog {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2%;
+    height: fit-content;
 }
 
 .description-blog {
     padding: 15px;
+}
+
+.description-blog h4.title-blog {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.description-blog p.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.description-blog p.description {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .card-blog img {
@@ -432,14 +576,22 @@ section.blog {
     margin-bottom: 15px;
 }
 
+.card-blog a {
+    color: black;
+}
+
 .card-blog a:hover {
     color: var(--main-color);
 }
 
+/* End Blogs Section */
+
+/* Start About Section */
+
 section.about {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     background-color: var(--main-color);
     color: var(--white-color);
@@ -447,6 +599,7 @@ section.about {
 
 .main-title.about {
     text-align: left;
+    font-size: 32px;
 }
 
 .about img {
@@ -457,6 +610,10 @@ section.about {
 .about .text-about {
     order: 2;
 }
+
+/* End About Section */
+
+/* Start Team Section */
 
 section.team {
     padding: 20px;
@@ -482,6 +639,10 @@ section.team {
     background-color: #FBEECF;
 }
 
+/* End Team Section */
+
+/* Start List Consultants Section */
+
 section.consultants {
     padding: 20px;
 }
@@ -495,6 +656,7 @@ section.consultants {
 .card-consultant {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2%;
+    color: black;
 }
 
 .card-consultant img {
@@ -502,29 +664,41 @@ section.consultants {
     height: 250px;
 }
 
-.description-consultant {
-    padding: 15px;
+.description-consultants {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-.description-consultant .job-consultant {
+.description-consultants p.job-consultant {
     color: #4B51E2;
+    margin: 0;
+}
+
+.description-consultants .rating {
+    gap: 10px;
+}
+
+p.country {
     margin: 5px 0;
 }
 
-.information {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
+i.favorite {
+    margin-top: 10px;
 }
 
-.available span {
-    width: 20px;
-    height: 20px;
-    background-color: #1FFF86;
-    border-radius: 50%;
+.rating p {
+    margin: 0;
 }
+
+.rating i {
+    color: orange;
+    margin-top: 2px;
+}
+
+/* End List Consultants Section */
+
+/* Start Job Vacancy Section */
 
 section.job-vacancy {
     padding: 20px;
@@ -535,6 +709,22 @@ section.job-vacancy {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.big-title-vacancy h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.see-more.category {
+    background: none;
+    color: black;
+    display: none;
+}
+
+.see-more.category:hover {
+    color: black;
+    background: var(--secondary-white-color);
 }
 
 .main-title.job-vacancy {
@@ -548,6 +738,10 @@ section.job-vacancy {
     gap: 30px;
 }
 
+.select-view p {
+    margin: 0;
+}
+
 .select-view a {
     width: 130px;
     text-align: center;
@@ -556,9 +750,11 @@ section.job-vacancy {
     background-color: var(--more-color);
     color: var(--white-color);
     transition: .2s ease-in;
+    text-decoration: none;
 }
 
 .select-view a:hover {
+    color: var(--white-color);
     background-color: var(--main-color);
 }
 
@@ -571,6 +767,8 @@ section.job-vacancy {
 .card-vacancy {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2%;
+    text-decoration: none;
+    color: black;
 }
 
 .card-vacancy img {
@@ -585,6 +783,19 @@ section.job-vacancy {
     padding: 15px;
 }
 
+.information-vacancy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-vacancy p {
+    margin: 0;
+}
+
+/* End Job Vacancy Section */
+
+/* Start Be Consultant Section */
+
 .title-page {
     padding: 30px 20px;
     background-color: var(--secondary-white-color);
@@ -594,34 +805,110 @@ section.be-consultant {
     padding: 20px;
 }
 
-section.register {
-    display: flex;
-    margin-bottom: 50px;
-    color: var(--white-color);
-}
-
-section.register img {
-    width: 50%;
-    height: 100vh;
-}
-
-section.register form {
-    background-color: var(--main-color);
-    height: 100vh;
+.be-consultant form {
     width: 100%;
-    padding: 90px 50px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+}
+
+.registration-consultant {
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    position: relative;
+}
+
+.registration-consultant .upload-foto {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+}
+
+.registration-consultant .required-input {
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.register form input {
+.required-input input {
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.be-consultant form button {
+    margin: 0 50px;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+.be-consultant form button:hover {
+    background-color: var(--more-color);
+}
+
+.be-consultant form button a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.description-be-consultant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description-be-consultant textarea {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Start Be Consultant Section */
+
+/* Start Autentication Section */
+
+section.autentication {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: var(--white-color);
+    width: 100%;
+}
+
+section.autentication img {
+    display: none;
+}
+
+section.autentication form {
+    background-color: var(--main-color);
+    height: auto;
+    width: 100%;
+    padding: 90px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 500px;
+}
+
+
+.autentication form input {
     height: 50px;
     border-radius: 10px;
     padding: 20px;
 }
 
-.register form button {
+.autentication form button {
     min-height: 50px;
     border-radius: 10px;
     background-color: black;
@@ -632,36 +919,100 @@ section.register form {
     cursor: pointer;
 }
 
-.register form p.login-already {
+.autentication form p.login-already {
     text-align: center;
 }
 
-.register form a {
+.autentication form a {
     color: var(--white-color);
     margin-left: 10px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-.register form a:hover {
+.autentication form a:hover {
     color: var(--more-color);
 }
 
-.register form .save-login {
+.save-login {
     display: flex;
     align-items: center;
 }
 
-.register form .save-login input {
+.save-login label {
+    cursor: pointer;
+}
+
+.save-login input {
     width: 15px;
     height: 15px;
     margin-right: 10px;
     background-color: none;
+    cursor: pointer;
 }
 
-/* End Main Section */
+/* End Autentication Section  */
 
+/* Start Successfully Section  */
 
-/* Start Footer Section  */
+section.successfully {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    text-align: center;
+}
+
+.ok {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.main-title.registration {
+    margin-bottom: 0;
+}
+
+.buttonSuccess {
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    transition: 0.3s ease-in;
+}
+
+.buttonSuccess:hover {
+    background-color: var(--more-color);
+}
+
+/* End Successfully Section  */
+
+/* Start Schedule Section  */
+
+section.schedule {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    text-align: center;
+}
+
+.main-title.schedule {
+    margin-bottom: 0;
+}
+
+/* Start Schedule Section  */
+
+/* End Main */
+
+/* ================================================== */
+
+/* Start Footer  */
 
 footer {
     bottom: 0;
@@ -670,7 +1021,9 @@ footer {
     z-index: 98;
 }
 
-.main-footer {
+/* Start Main Footer Section */
+
+section.main-footer {
     padding: 20px;
     height: auto;
     width: 100%;
@@ -700,15 +1053,19 @@ footer {
 .title-footer {
     margin-bottom: 10px;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .list-links li a {
     color: var(--white-color);
     transition: .2s ease;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
 }
 
 .list-links li a:hover {
     color: var(--more-color);
+    padding-left: 8px;
 }
 
 .contact-footer {
@@ -723,13 +1080,36 @@ footer {
     width: 90%;
     left: 20px;
     color: var(--white-color);
+    gap: 10px;
+    vertical-align: middle;
 }
 
-.copyright {
+.contact-footer h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-footer p {
+    font-size: 14px;
+}
+
+/* End Main Footer Section */
+
+/* Start Copyright Section */
+
+section.copyright {
     background-color: #eee;
     width: 100%;
     padding: 20px 0px 20px 20px;
     text-align: left;
 }
 
-/* End Footer Section  */
+section.copyright h5 {
+    font-size: 14px;
+}
+
+/* End Copyright Section */
+
+/* End Footer */
+
+/* ================================================== */

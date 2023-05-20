@@ -6,7 +6,7 @@ import BeConsultPage from '../views/pages/be-consult-page';
 import RegisterPage from '../views/pages/register-page';
 import LoginPage from '../views/pages/login-page';
 import SchedulePage from '../views/pages/schedule-page';
-import SuccesfullyPage from '../views/pages/successfully-page';
+import SuccessfullyPage from '../views/pages/successfully-page';
 
 const routes = {
   '/': HomePage, // default page
@@ -18,7 +18,7 @@ const routes = {
   '/register-page': RegisterPage,
   '/login-page': LoginPage,
   '/schedule-page': SchedulePage,
-  '/succesfully-page': SuccesfullyPage,
+  '/successfully-page': SuccessfullyPage,
 };
 
 export default routes;
