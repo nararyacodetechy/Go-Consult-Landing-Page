@@ -2,13 +2,127 @@
     "consultants": [
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
+            "name": "Ir. Nadzirah Ikasari., S.T.,M.T., IPM",
+            "job": "Lecturer Ergonomics and Occupational Health and Safety (K3)",
+            "picture": "https://media.licdn.com/dms/image/C5103AQFAl8R0tgd1Cg/profile-displayphoto-shrink_800_800/0/1536703270295?e=1690416000&v=beta&t=7mbbPO35boHnA4XpIXryIiUyMn0MIpPT4cHdlJxSg-s",
+            "backdrop": "",
+            "email": "-",
+            "linkedin": "linkedin.com/in/nadzirah-ikasari-syamsul-85479044",
+            "description": "Lecturer of Industrial Engineering Dept. Hasanuddin University / Journal Editor In Chief of UMI",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Ir. Asriadi Sakka, S.T., M.Eng",
+            "job": "Resources to Renewable Energy Sectors",
+            "picture": "https://media.licdn.com/dms/image/C5603AQFdZCGRdyd_YA/profile-displayphoto-shrink_800_800/0/1543397615459?e=1690416000&v=beta&t=03lbSH2_8XBDSLhkPuGTfNHOZXwQbJsPDGLesEIAnvA",
+            "backdrop": "",
+            "email": "-",
+            "linkedin": "linkedin.com/in/asriadi-sakka-0165tokyotech",
+            "description": "I was an employee at Coal Mining Company, one of the best multinational Mining Company in Indonesia, spesifically in Safety, Health and Environmental Leader. During Master study, I was focused on Waste to Energy major and Biomass/Waste Resources to Renewable Energy as my topic research regarding Pyrolysis to Bio-Oil Produced.",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Rachita SharmaRachita Sharma",
+            "job": "Database Engineer Expert",
+            "picture": "https://media.licdn.com/dms/image/C5603AQETzdXgGpR27g/profile-displayphoto-shrink_800_800/0/1517025191178?e=1690416000&v=beta&t=ITqFXfIJC5G5bviEJCMXEb_5CvUtzCqUjGvb7fLuuRc",
+            "backdrop": "",
+            "email": "-",
+            "linkedin": "linkedin.com/in/rachitasharma22",
+            "description": "Rachita Sharma is a technology entrepreneur, financial literacy advocate and gender rights activist. Rachita is the CEO of Girl Power Talk, based in India, a purpose driven organization empowering today’s most capable youth with the confidence, knowledge and opportunity to become tomorrow’s global leaders. Her responsibilities include corporate communications, client engagement, and new business development. She leads the evaluation of all new potential Girl Power Talk team members and expansion into new markets.",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Andi Alif Lakipadada Norman",
+            "job": "UI Engineer Expert",
+            "picture": "https://i.imgur.com/r5fpKFu.png",
+            "backdrop": "",
+            "email": "",
+            "linkedin": "https://www.linkedin.com/in/alif-lakipadada-038ba7215/",
+            "description": "Alif is a professional UI UX Designer, His key skills include but not limited to: User Research, Wireframe Designing, Prototyping, Mockups, Multi-Platform Development, Project ad Product Development. In addition to his technical skills, He is also an excellent communicator and collaborator.",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Nurul Hadyah",
+            "job": "Marketing Strategy",
+            "picture": "https://media.licdn.com/dms/image/D5603AQE3wOVzfxqw9Q/profile-displayphoto-shrink_800_800/0/1665113236446?e=1690416000&v=beta&t=soQAzfElArDFvzM3z0MV8VLo_ejVcRflwP9KbxEVvNI",
+            "backdrop": "",
+            "email": "-",
+            "linkedin": "https://www.linkedin.com/in/nurul-hadyah/",
+            "description": "I am a 4th-year student of Digital Business at Universitas Pendidikan Indonesia. Eager to learn and passionate in digital marketing. Like to explore a lot of new things, full of ideas, creative, always up to date on the latest trend, a fast learner, and work well under pressure. Experienced in marketing, content, and social media.",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Ochalia Amy Moktina",
+            "job": "Human Resources Development",
+            "picture": "https://media.licdn.com/dms/image/D5603AQF5jYdWckt6zw/profile-displayphoto-shrink_800_800/0/1665720950718?e=1690416000&v=beta&t=OYplZB4AVvYhTeBdb9IgAq8qLl2vFlKqzzktZgp9waQ",
+            "backdrop": "",
+            "email": "-",
+            "linkedin": "https://www.linkedin.com/in/ochalia-amy-moktina-b66b401a4/",
+            "description": "With my background, I am sure to work in the field of Human Resource Officer, Selection and Recruitment, and General Affair. My interest in the field from a combination of work experience as a Practicum Aasistant Psychologycal, Psycological Tester, and Human Resource Consultant. I have skills teamwork dan leadership from my experience as Ketua Pramuka Perguruan Tinggi Se-Kota Semarang. Have analyitical and conceptual thinking, communication skills, time management, problem solving, and recruitment skill from my work experience as Human Resource Consultant.",
+            "riviews": [
+                {
+                    "riviewer": "",
+                    "comment": ""
+                }
+            ],
+            "available": "available",
+            "riview": 20,
+            "country": "Indonesia"
+        },
+        {
+            "id": "6c7bqjgi84kcowlqdz",
+            "name": "Sri Ganrefi Putri Syafardiah",
+            "job": "Digital marketing expert",
             "picture": "https://media.licdn.com/dms/image/C4E03AQFMOFch3SdpBw/profile-displayphoto-shrink_800_800/0/1600760364651?e=1690416000&v=beta&t=kbIxI4_4dOP0YOQcZPcEgyqNo2wvUmMh-gQnZdJkPvE",
             "backdrop": "",
-            "email": "",
-            "linkedin": "",
-            "description": "",
+            "email": "-",
+            "linkedin": "https://www.linkedin.com/in/sriganrefips/",
+            "description": "Digital Marketing (Campaign & Strategy) Senior Associate at KarirLab",
             "riviews": [
                 {
                     "riviewer": "",
@@ -17,17 +131,17 @@
             ],
             "available": "available",
             "riview": 20,
-            "guidance": "1.900"
+            "country": "Indonesia"
         },
         {
             "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
-            "picture": "./images/list-consultant/muh-rusman.png",
+            "name": "Ir. Gede Humaswara Prathama,ST.,MT.",
+            "job": "Full Stack Developer Expert",
+            "picture": "https://i1.rgstatic.net/ii/profile.image/1111987148853248-1642129804082_Q128/Gede-Prathama.jpg",
             "backdrop": "",
             "email": "",
-            "linkedin": "",
-            "description": "",
+            "linkedin": "https://www.linkedin.com/in/humaprathama/",
+            "description": "Lecturer, Researcher and Project leader in a wide variety of business applications. Particularly interested in Enterprise Applications and AI",
             "riviews": [
                 {
                     "riviewer": "",
@@ -36,83 +150,7 @@
             ],
             "available": "available",
             "riview": 20,
-            "guidance": "1.900"
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
-            "picture": "./images/list-consultant/muh-rusman.png",
-            "backdrop": "",
-            "email": "",
-            "linkedin": "",
-            "description": "",
-            "riviews": [
-                {
-                    "riviewer": "",
-                    "comment": ""
-                }
-            ],
-            "available": "available",
-            "riview": 20,
-            "guidance": "1.900"
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
-            "picture": "./images/list-consultant/muh-rusman.png",
-            "backdrop": "",
-            "email": "",
-            "linkedin": "",
-            "description": "",
-            "riviews": [
-                {
-                    "riviewer": "",
-                    "comment": ""
-                }
-            ],
-            "available": "available",
-            "riview": 20,
-            "guidance": "1.900"
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
-            "picture": "./images/list-consultant/muh-rusman.png",
-            "backdrop": "",
-            "email": "",
-            "linkedin": "",
-            "description": "",
-            "riviews": [
-                {
-                    "riviewer": "",
-                    "comment": ""
-                }
-            ],
-            "available": "available",
-            "riview": 20,
-            "guidance": "1.900"
-        },
-        {
-            "id": "6c7bqjgi84kcowlqdz",
-            "name": "Dr.Eng. Syamsul Asri",
-            "job": "Naval Architacture Expert",
-            "picture": "./images/list-consultant/muh-rusman.png",
-            "backdrop": "",
-            "email": "",
-            "linkedin": "",
-            "description": "",
-            "riviews": [
-                {
-                    "riviewer": "",
-                    "comment": ""
-                }
-            ],
-            "available": "available",
-            "riview": 20,
-            "guidance": "1.900"
+            "country": "Indonesia"
         }
     ]
 }

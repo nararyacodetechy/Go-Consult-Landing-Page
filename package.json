@@ -19,7 +19,7 @@
     "babel-loader": "^9.1.2",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "html-webpack-plugin": "^5.5.1",
@@ -30,7 +30,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "regenerator-runtime": "^0.13.11"
   }

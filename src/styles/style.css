@@ -365,6 +365,9 @@ section.faq {
 .faq .accordion-item {
     color: var(--white-color);
     background-color: var(--main-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-white-color);
+    border-top: 1px solid var(--secondary-white-color);
 }
 
 .faq .accordion-button {
@@ -649,7 +652,7 @@ section.consultants {
 
 .container-consultant {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
 
@@ -661,7 +664,8 @@ section.consultants {
 
 .card-consultant img {
     width: 100%;
-    height: 250px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
 }
 
 .description-consultants {
@@ -670,9 +674,24 @@ section.consultants {
     padding: 20px;
 }
 
+.description-consultants .name-consultant {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 .description-consultants p.job-consultant {
     color: #4B51E2;
     margin: 0;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .description-consultants .rating {
@@ -692,7 +711,7 @@ i.favorite {
 }
 
 .rating i {
-    color: orange;
+    color: var(--more-color);
     margin-top: 2px;
 }
 
