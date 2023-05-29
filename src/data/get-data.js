@@ -12,6 +12,13 @@ class GetData {
     });
     return responseJson.consultants;
   }
+
+  static async getDetailConsultant(id) {
+    const { default: responseJson } = await import('./consultant.json', {
+      assert: { type: 'json' },
+    });
+    return responseJson.consultants.find((c) => c.id === id);
+  }
 }
 
 export default GetData;

@@ -16,6 +16,12 @@
     .be-consultant form button {
         margin: 0 100px;
     }
+
+    section.consultants {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 /* Tablet Size Responsive */
@@ -111,6 +117,23 @@
         padding: 50px;
     }
 
+    section.consultants {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-consultant {
+        width: 100%;
+    }
+
+    .list-class {
+        width: 100%;
+    }
+
+    .detail-consultant .booking-class {
+        justify-content: right;
+    }
+
     section.job-vacancy {
         padding: 50px;
     }
@@ -124,7 +147,7 @@
         padding: 30px 50px;
     }
 
-    .see-more.category {
+    .see-more.category-blog {
         display: flex;
     }
 
@@ -180,5 +203,20 @@
 
     .be-consultant form {
         padding: 0px 200px;
+    }
+
+    section.consultants {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .list-consultant {
+        width: 75%;
+    }
+
+    .list-class {
+        width: 25%;
+        margin-top: 60px;
     }
 }

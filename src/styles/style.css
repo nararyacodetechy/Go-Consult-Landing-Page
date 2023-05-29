@@ -648,11 +648,62 @@ section.team {
 
 section.consultants {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.list-consultant {
+    width: 100%;
+}
+
+.list-class {
+    width: 100%;
+    background-color: var(--secondary-white-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+}
+
+.list-class .title-category {
+    display: flex;
+    gap: 10px;
+}
+
+.list-class .title-category h3 {
+    font-size: 18px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.class {
+    display: flex;
+    gap: 8px;
+}
+
+.class img {
+    width: 100px;
+    height: 80px;
+}
+
+.class .description h4 {
+    font-size: 14px;
+}
+
+.class .description p {
+    font-size: 12px;
 }
 
 .container-consultant {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
 }
 
@@ -660,6 +711,19 @@ section.consultants {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2%;
     color: black;
+    background-color: var(--secondary-white-color);
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.card-consultant:hover:before {
+    position: absolute;
+    border-radius: 10px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(197, 222, 251, 0.3);
 }
 
 .card-consultant img {
@@ -715,6 +779,67 @@ i.favorite {
     margin-top: 2px;
 }
 
+.detail-consultant {
+    width: 100%;
+}
+
+.detail-consultant h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detail-consultant a {
+    color: black;
+    text-decoration: none;
+}
+
+.detail-consultant .booking-class {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.detail-consultant .booking-class a {
+    padding: 10px 20px;
+    color: white;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    transition: .2s ease;
+}
+
+.detail-consultant .booking-class a:hover {
+    background-color: var(--more-color);
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 300px;
+}
+
+.banner-container .banner-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.banner-container .banner-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 /* End List Consultants Section */
 
 /* Start Job Vacancy Section */
@@ -735,13 +860,13 @@ section.job-vacancy {
     font-weight: 700;
 }
 
-.see-more.category {
+.see-more.category-blog {
     background: none;
     color: black;
     display: none;
 }
 
-.see-more.category:hover {
+.see-more.category-blog:hover {
     color: black;
     background: var(--secondary-white-color);
 }
@@ -1019,6 +1144,16 @@ section.schedule {
     height: 100vh;
     gap: 20px;
     text-align: center;
+}
+
+.schedule a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.schedule a:hover {
+    color: white;
 }
 
 .main-title.schedule {

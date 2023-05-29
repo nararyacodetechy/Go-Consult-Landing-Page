@@ -272,7 +272,7 @@ const HomePage = {
         <div class="big-title-vacancy">
           <h3 class="main-title job-vacancy">Job Vacancy Info</h3>
           <div class="select-view">
-            <a href="" class="see-more category">
+            <a href="" class="see-more category-blog">
               <b>Category</b>
               <i class="fa-solid fa-caret-down fa-bounce"></i>
             </a>
