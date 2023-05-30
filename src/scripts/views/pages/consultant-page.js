@@ -15,6 +15,28 @@ const ConsultantPage = {
             <input id="search-consultant" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit" >Search</button>
           </form>
+          <div class="category-consultant">
+            <div class="choosee-select active">
+              <img src="./icons/category/active.png">
+              <p>Engineering</p>
+            </div>
+            <div class="choosee-select">
+              <img src="./icons/category/no-active.png">
+              <p>Startup</p>
+            </div>
+            <div class="choosee-select">
+              <img src="./icons/category/no-active.png">
+              <p>Management</p>
+            </div>
+            <div class="choosee-select">
+              <img src="./icons/category/no-active.png">
+              <p>Education</p>
+            </div>
+            <div class="choosee-select">
+              <img src="./icons/category/no-active.png">
+              <p>Health</p>
+            </div>
+          </div>
           <div id="list-consultant" class="container-consultant">
               
           </div>

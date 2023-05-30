@@ -691,6 +691,31 @@ section.consultants {
     gap: 30px;
 }
 
+.category-consultant {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.choosee-select {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.choosee-select.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.choosee-select p {
+    margin: 0;
+}
+
 .list-consultant {
     width: 100%;
 }
