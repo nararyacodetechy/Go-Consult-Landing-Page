@@ -170,40 +170,52 @@ const HomePage = {
         <div class="main-title faq">
           <h2>Frequently Asked Questions</h2>
         </div>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="faq">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is the Go Consult platform?
+                Who is target mentee of go Consult?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>Go Consult</strong> is a platform that exists as a solution to problems that are often faced by job seekers, fresh graduates, and final year.
+                are Student, fresh graduated, professionals, entrepreneurs, and individuals who want to enhance their skills, knowledge, and understanding in various fields. Those seeking guidance, support, and coaching to achieve their personal and professional goals
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+                How packages Go consult?  
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                Go Consult package offers a comprehensive and personalized approach to mentoring and coaching, like Tailored Guidance, Expert Mentors, Skill Development, and Additional Resources
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                What is the Go Consult consulting concept like?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                The concept of "Go Consult" revolves around individuals who wish to develop their potential, identify suitable career paths based on their potential, and gain deeper insights into their respective professions through online consultations with experts. Users can customize the experience according to their needs, check the consultation schedule with experts, make payments, and proceed with the consultation.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Who is the partner of the Go Consult platform?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Go Consult collaborates with experts such as academics, practitioners, and professionals who are based in Indonesia. These experts possess specialized knowledge and experience in various fields. By partnering with a diverse range of experts, Go Consult aims to provide comprehensive and tailored consulting services to individuals seeking guidance and insights in their respective areas of interest.
               </div>
             </div>
           </div>
@@ -260,15 +272,15 @@ const HomePage = {
         <div class="big-title-vacancy">
           <h3 class="main-title job-vacancy">Job Vacancy Info</h3>
           <div class="select-view">
-            <a href="" class="see-more category">
+            <a href="#/none-page" class="see-more category-blog">
               <b>Category</b>
               <i class="fa-solid fa-caret-down fa-bounce"></i>
             </a>
-            <a href="">View More</a>
+            <a href="#/none-page">View More</a>
           </div>
         </div>
         <div class="container-vacancy">
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-1.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
@@ -280,7 +292,7 @@ const HomePage = {
                 </div>
             </div>
           </a>
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-2.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
@@ -292,7 +304,7 @@ const HomePage = {
                 </div>
             </div>
           </a>
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-3.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>

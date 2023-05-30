@@ -105,28 +105,48 @@ nav {
     color: var(--white-color);
     transition: 0.2s ease;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .links-nav li a:hover {
     color: var(--more-color);
 }
 
-.links-nav li a.register {
-    background-color: var(--more-color);
-    padding: 10px 20px;
-    border-radius: 8px;
+.links-nav li.user-account {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    align-items: center;
+    margin-left: 50px;
+    cursor: pointer;
 }
 
-.links-nav li a.register:hover, a.login:hover {
-    padding: 10px 20px;
-    border-radius: 8px;
-    background-color: var(--secondary-white-color);
+.links-nav li.user-account img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
-.links-nav li a.login {
-    border: 1px solid var(--more-color);
-    padding: 10px 20px;
-    border-radius: 8px;
+.links-nav li.user-account .user-information {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links-nav li.user-account .user-information .user-name {
+    font-size: 14px;
+    margin: 0;
+}
+
+.links-nav li.user-account .user-information .user-email {
+    font-size: 12px;
+    margin: 0;
+}
+
+.links-nav li.user-account i {
+    color: white;
 }
 
 nav.open {
@@ -194,6 +214,7 @@ section.hero {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
     margin-top: 40px;
+    justify-content: left;
 }
 
 .text-hero .connect-button .button {
@@ -204,6 +225,7 @@ section.hero {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-decoration: none;
     transition: 0.3s ease;
+    width: fit-content;
 }
 
 .text-hero .connect-button .button:hover {
@@ -365,6 +387,9 @@ section.faq {
 .faq .accordion-item {
     color: var(--white-color);
     background-color: var(--main-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-white-color);
+    border-top: 1px solid var(--secondary-white-color);
 }
 
 .faq .accordion-button {
@@ -543,6 +568,10 @@ section.blog {
     font-size: 20px;
 }
 
+.description-blog h4.title-blog a {
+    text-decoration: none;
+}
+
 .description-blog p.description {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -609,6 +638,18 @@ section.about {
 
 .about .text-about {
     order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about .text-about a {
+    border: 2px solid white;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
 }
 
 /* End About Section */
@@ -645,11 +686,87 @@ section.team {
 
 section.consultants {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.category-consultant {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.choosee-select {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.choosee-select.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.choosee-select p {
+    margin: 0;
+}
+
+.list-consultant {
+    width: 100%;
+}
+
+.list-class {
+    width: 100%;
+    background-color: var(--secondary-white-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+}
+
+.list-class .title-category {
+    display: flex;
+    gap: 10px;
+}
+
+.list-class .title-category h3 {
+    font-size: 18px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.class {
+    display: flex;
+    gap: 8px;
+}
+
+.class img {
+    width: 100px;
+    height: 80px;
+}
+
+.class .description h4 {
+    font-size: 14px;
+}
+
+.class .description p {
+    font-size: 12px;
 }
 
 .container-consultant {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
 }
 
@@ -657,11 +774,26 @@ section.consultants {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2%;
     color: black;
+    background-color: var(--secondary-white-color);
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.card-consultant:hover:before {
+    position: absolute;
+    border-radius: 10px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-color: white;
 }
 
 .card-consultant img {
     width: 100%;
-    height: 250px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
 }
 
 .description-consultants {
@@ -670,9 +802,24 @@ section.consultants {
     padding: 20px;
 }
 
+.description-consultants .name-consultant {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 .description-consultants p.job-consultant {
     color: #4B51E2;
     margin: 0;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .description-consultants .rating {
@@ -692,8 +839,69 @@ i.favorite {
 }
 
 .rating i {
-    color: orange;
+    color: var(--more-color);
     margin-top: 2px;
+}
+
+.detail-consultant {
+    width: 100%;
+}
+
+.detail-consultant h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detail-consultant a {
+    color: black;
+    text-decoration: none;
+}
+
+.detail-consultant .booking-class {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.detail-consultant .booking-class a {
+    padding: 10px 20px;
+    color: white;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    transition: .2s ease;
+}
+
+.detail-consultant .booking-class a:hover {
+    background-color: var(--more-color);
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 300px;
+}
+
+.banner-container .banner-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.banner-container .banner-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 /* End List Consultants Section */
@@ -716,13 +924,13 @@ section.job-vacancy {
     font-weight: 700;
 }
 
-.see-more.category {
+.see-more.category-blog {
     background: none;
     color: black;
     display: none;
 }
 
-.see-more.category:hover {
+.see-more.category-blog:hover {
     color: black;
     background: var(--secondary-white-color);
 }
@@ -967,6 +1175,15 @@ section.successfully {
     text-align: center;
 }
 
+.successfully a {
+    color: white;
+    text-decoration: none;
+}
+
+.successfully a:hover {
+    color: white;
+}
+
 .ok {
     font-size: 100px;
     text-transform: uppercase;
@@ -1000,6 +1217,21 @@ section.schedule {
     height: 100vh;
     gap: 20px;
     text-align: center;
+}
+
+.schedule img {
+    width: 300px;
+    height: 300px;
+}
+
+.schedule a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.schedule a:hover {
+    color: white;
 }
 
 .main-title.schedule {
@@ -1039,21 +1271,23 @@ section.main-footer {
 .company {
     justify-content: start;
     color: var(--white-color);
+    margin-bottom: 0;
 }
 
 .links-footer {
     gap: 15px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-bottom: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 100px;
     color: var(--white-color);
 }
 
 .title-footer {
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
+    font-size: 16px;
 }
 
 .list-links li a {
@@ -1061,6 +1295,7 @@ section.main-footer {
     transition: .2s ease;
     text-decoration: none;
     transition: 0.2s ease-in-out;
+    font-size: 14px;
 }
 
 .list-links li a:hover {
@@ -1091,6 +1326,7 @@ section.main-footer {
 
 .contact-footer p {
     font-size: 14px;
+    margin: 0;
 }
 
 /* End Main Footer Section */
