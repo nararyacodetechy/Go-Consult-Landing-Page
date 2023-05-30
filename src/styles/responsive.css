@@ -179,8 +179,13 @@
         justify-content: flex-start;
     }
 
+    .company {
+        margin-bottom: 100px;
+    }
+
     .links-footer {
         margin-bottom: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 
     .contact-footer {

@@ -12,8 +12,8 @@ const ConsultantPage = {
         <div class="list-consultant">
           <h5 class="main-title consultant">Our Consultant</h5>
           <form class="d-flex search" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input id="search-consultant" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" >Search</button>
           </form>
           <div id="list-consultant" class="container-consultant">
               

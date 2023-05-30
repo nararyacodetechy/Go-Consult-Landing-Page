@@ -5,6 +5,7 @@ const AboutPage = {
         <div class="text-about">
           <h2 class="main-title about">About Us</h2>
           <p><b>GO Consult</b> is a platform that exists as a solution to problems that are often faced by job seekers, fresh graduates, and final year students when looking for work or when facing competition in the world of work. We present various HR, especially in the field of Recruitment from well-known companies in Indonesia to become consultants for our users when they want to consult. All consultations at Go Consult are carried out online with a flexible schedule.</p>
+          <a href="#/none-page">More About Us</a>
         </div>
         <img src="./images/about.png">
       </section>

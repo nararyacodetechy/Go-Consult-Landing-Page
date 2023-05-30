@@ -1,8 +1,8 @@
 const createConsultantCardTemplate = (consultant) => `
-    <a href="#/detail-consultant-page/${consultant.id}" class="card-consultant">
+    <a href="#/detail-consultant-page/${consultant.id}" id="card-consultant" class="card-consultant">
         <img src="${consultant.picture}">
         <div class="description-consultants">
-            <h4 class="name-consultant">${consultant.name}</h4>
+            <h4 id="name-consultant" class="name-consultant">${consultant.name}</h4>
             <p class="job-consultant">${consultant.job}</p>
             <div class="d-flex justify-content-between">
                 <p class="country">${consultant.country}</p>
@@ -23,7 +23,7 @@ const createConsultantCardTemplate = (consultant) => `
 const createDetailConsultantTemplate = (consultant) => `
     <div class="detail-content">
         <div class="banner-container">
-            <img src="https://thumbs.dreamstime.com/b/modern-interior-design-decorative-background-house-apartment-office-hotel-living-room-comfortable-sofa-fresh-flowers-163095122.jpg" class="image-banner" alt="Image Banner">
+            <img src="${consultant.backdrop}" class="image-banner" alt="Image Banner">
             <div class="banner-content">
                 <img src="${consultant.picture}" class="image-profile" alt="Image Profile">
             </div>

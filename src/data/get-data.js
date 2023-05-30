@@ -19,6 +19,13 @@ class GetData {
     });
     return responseJson.consultants.find((c) => c.id === id);
   }
+
+  static async searchListConsultant(name) {
+    const { default: responseJson } = await import('./consultant.json', {
+      assert: { type: 'json' },
+    });
+    return responseJson.consultants.find((c) => c.name === name);
+  }
 }
 
 export default GetData;

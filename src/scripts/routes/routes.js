@@ -8,6 +8,7 @@ import RegisterPage from '../views/pages/register-page';
 import LoginPage from '../views/pages/login-page';
 import SchedulePage from '../views/pages/schedule-page';
 import SuccessfullyPage from '../views/pages/successfully-page';
+import NonePage from '../views/pages/none-page';
 
 const routes = {
   '/': HomePage, // default page
@@ -21,6 +22,7 @@ const routes = {
   '/login-page': LoginPage,
   '/schedule-page': SchedulePage,
   '/successfully-page': SuccessfullyPage,
+  '/none-page': NonePage,
 };
 
 export default routes;

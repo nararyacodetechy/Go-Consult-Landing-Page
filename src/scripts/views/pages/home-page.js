@@ -272,15 +272,15 @@ const HomePage = {
         <div class="big-title-vacancy">
           <h3 class="main-title job-vacancy">Job Vacancy Info</h3>
           <div class="select-view">
-            <a href="" class="see-more category-blog">
+            <a href="#/none-page" class="see-more category-blog">
               <b>Category</b>
               <i class="fa-solid fa-caret-down fa-bounce"></i>
             </a>
-            <a href="">View More</a>
+            <a href="#/none-page">View More</a>
           </div>
         </div>
         <div class="container-vacancy">
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-1.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
@@ -292,7 +292,7 @@ const HomePage = {
                 </div>
             </div>
           </a>
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-2.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
@@ -304,7 +304,7 @@ const HomePage = {
                 </div>
             </div>
           </a>
-          <a href="#" class="card-vacancy">
+          <a href="#/none-page" class="card-vacancy">
             <img src="./images/blogs/blog-3.png">
             <div class="description-vacancy">
                 <h4 class="title-job">Startup Building</h4>
