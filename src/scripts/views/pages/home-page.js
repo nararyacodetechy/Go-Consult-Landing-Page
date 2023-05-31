@@ -286,9 +286,9 @@ const HomePage = {
                 <h4 class="title-job">Startup Building</h4>
                 <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
                 <div class="information-vacancy">
-                    <p class="meeting">5 Meeting</p>
-                    <p class="videos">20 Video</p>
-                    <p class="applications">1.900 applications</p>
+                    <p class="meeting">15 Meeting</p>
+                    <p class="videos">29 Video</p>
+                    <p class="applications">1.780 applications</p>
                 </div>
             </div>
           </a>
@@ -298,9 +298,9 @@ const HomePage = {
                 <h4 class="title-job">Startup Building</h4>
                 <p class="description-job">responsible for managing startup operations, planning business strategy.</p>
                 <div class="information-vacancy">
-                    <p class="meeting">5 Meeting</p>
-                    <p class="videos">20 Video</p>
-                    <p class="applications">1.900 applications</p>
+                    <p class="meeting">14 Meeting</p>
+                    <p class="videos">16 Video</p>
+                    <p class="applications">890 applications</p>
                 </div>
             </div>
           </a>

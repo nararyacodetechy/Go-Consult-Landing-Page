@@ -210,11 +210,9 @@ section.hero {
 }
 
 .text-hero .connect-button {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
     gap: 20px;
     margin-top: 40px;
-    justify-content: left;
 }
 
 .text-hero .connect-button .button {
@@ -253,11 +251,12 @@ section.statistic {
 }
 
 .statistic .category-statistic h2 {
-    font-size: 28px;
+    font-size: 16px;
 }
 
 .statistic .category-statistic p {
     margin: 0;
+    font-size: 12px;
 }
 
 /* End Statistic Section */
@@ -692,10 +691,7 @@ section.consultants {
 }
 
 .category-consultant {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    display: none;
 }
 
 .choosee-select {
@@ -1279,7 +1275,7 @@ section.main-footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     color: var(--white-color);
 }
 
